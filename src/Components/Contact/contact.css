@@ -1,0 +1,70 @@
+.contact{
+    /* padding: 5em 0;
+    justify-content: center;
+    color: black;
+    font-size: 2rem */
+    width: 100vw;
+    height:100vh;
+    position: relative;
+    left: 30%;
+
+}
+
+
+
+ 
+    .contactMeTxt{
+         font-weight: 500;
+         position: relative;
+         left: 170px;
+
+ 
+    }
+
+    label{
+        display: block;
+        margin-top: 1em;
+          
+
+    }
+
+    form{
+        align-items: center;
+    }
+    input, textarea{
+        
+        padding: .75em;
+        width: 40%;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 10px;
+      
+        top: auto;
+         
+    }
+
+ 
+
+
+.button{
+    width: 15%;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    background: black;
+    border: none;
+    color: white;
+    margin: auto;
+    border-radius: 2rem;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    cursor: pointer;
+ 
+ }
+
+ .button:hover{
+
+    background-color: black;
+ }
+
+ 

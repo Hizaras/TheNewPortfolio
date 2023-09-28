@@ -1,0 +1,97 @@
+#intro{
+    height: calc(120vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+    position: relative;
+    bottom:  1rem;
+ }
+
+.bg{
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 150vh;
+    margin: 4rem;
+}
+
+.introContent{
+    height: 120vh;
+    width: 100vw;
+    font-size: 3rem;
+    font-weight:700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.724);
+    margin: 3rem;
+    position: relative;
+    top: 0.30rem;
+
+ }
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.724);
+
+
+}
+
+.introName{
+    color: blueviolet;
+
+}
+
+.introPara{
+    font-size: large;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.hireMeImg{
+    object-fit: cover;
+    margin-bottom:3%; 
+ 
+}
+
+.btn{
+    background: blueviolet;
+    margin: 2rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-size: 0.89rem;
+    color: white;
+    position: relative;
+    bottom: 2rem;
+
+}
+
+@media screen and (max-width:840px) {
+    .bg{
+        right: -10vw;
+    }
+
+    .introContent{
+        font-size: 10vw;
+    }
+
+    .hello{
+        font-size: 4.5vw;
+
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .bg{
+        right: -20vw;
+    }
+
+       
+}
