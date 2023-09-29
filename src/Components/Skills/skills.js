@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.css';
-import designImg from '../../assets/designer.png';
+import designImg from '../../assets/phone.png';
 import webImg from '../../assets/ui Img.png';
 import uiImg from '../../assets/webImg.png';
 

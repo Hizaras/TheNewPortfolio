@@ -1,5 +1,6 @@
 import Client from './Components/Clients/client';
 import Contact from './Components/Contact/contact';
+import Footer from './Components/Footer/footer';
 import Intro from './Components/Intro/intro';
 import Navbar from './Components/Navbar/navbar';
 import Skills from './Components/Skills/skills';
@@ -14,6 +15,7 @@ function App() {
        <Works/>
        <Client/>
        <Contact/>
+       <Footer/>
        </div>
   );
 }
